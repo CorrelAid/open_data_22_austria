@@ -1,5 +1,5 @@
 
-from calendar import c
+import matplotlib.pyplot as plt
 import pandas as pd
 
 DROP_COLS = ["SUB_DISTRICT_CODE", "INCOME_MEN", "INCOME_WOMEN", "INCOME_TOTAL", "REF_DATE"]
@@ -12,10 +12,13 @@ income.bezirk = income.bezirk.apply(lambda x: int(str(x)[1:3]))
 income.columns = income.columns.str.lower()
 income.columns = income.columns.str.replace('average', 'avg')
 
+
 for col in income.columns:
     income[col].astype(int)
 
 income = income.reset_index()
-print(income)
+del income["index"]
 
 income.to_csv("data/income/income.csv", index=False)
+
+# plt.show()
