@@ -1,0 +1,23 @@
+---
+title: "Which district has the tallest Tree ? "
+author: "Correlaid Austria"
+date: "3/5/2022"
+output: html_document
+css:
+  style.css
+---
+
+<hr>
+
+<div class="container"> 
+
+
+### Dog Urine is bad for tree growth! Fake or Real? 
+
+Inspired by this recent study concerning the effect of dog urine, a team of researchers wanted to know the data.
+
+![](../plots/urin_strahl_des_lebens.png)
+
+
+</div>
+

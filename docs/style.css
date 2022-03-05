@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Indie+Flower&family=Playfair+Display+SC&family=Shizuru&display=swap');
+
+body, html{
+  background: lightgrey;
+  font-family: 'Abril Fatface', cursive;;
+}
+
+h1{
+  color: red;
+  font-size: 6rem;
+  text-shadow: 2px 2px  black;
+  text-align: center;
+}
+
+h4 {
+  color: black;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.container{
+  width: 700px;
+}
+
+.container p{
+  margin: 1rem auto;
+  font-family: Tahoma;
+  font-size: 2rem;
+}
+
+
+img{
+  width: 600px;
+  margin: auto;
+}
+
