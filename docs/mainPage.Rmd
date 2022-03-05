@@ -1,23 +1,59 @@
 ---
-title: "Which district has the tallest Tree ? "
+title: "Dogs and Trees"
 author: "Correlaid Austria"
 date: "3/5/2022"
-output: html_document
-css:
-  style.css
+output: 
+  html_document:
+    toc: true
+    toc_depth: 5  # upto three depths of headings (specified by #, ## and ###)
+    css: style.css
 ---
+
 
 <hr>
 
-<div class="container"> 
+<div class="container">
 
 
-### Dog Urine is bad for tree growth! Fake or Real? 
+### Dog Urine is bad for tree growth! Fake or Real?
 
-Inspired by this recent study concerning the effect of dog urine, a team of researchers wanted to know the data.
+Inspired by this recent study concerning the effect of dog urine, a team of researchers wanted to know the data behind this phenomenon.
 
 ![](../plots/urin_strahl_des_lebens.png)
+Source (https://wufflog.de/hundeurin/)
 
+In Vienna, the presence of dogs has a positive effect on the thickness of trees. 
+![](../plots/dog_tree.png)
+
+
+### What is there about Vienna and Chihuahua?
+
+The people from Vienna seem to like their Chihuahua. Although many numbers have been crunched, no clear answer on why this is the case has been found.
+
+![](../plots/most_popular_race_bezirk.png)
+
+### Doggy bag density vs. dog density
+
+Many people already tried to investigate this question. Yet few answers have been presented to the scientific literature. Here we show a novel approach, called a scatterplot, shows that the higher the dog-density, the higher the doggy-bag density. 
+
+![](../plots/doggy_bags_density_vs_dog_density.png)
+
+### Spread of the income in Vienna
+
+The following pie-chart, clearly, shows the span between the low-income and high-income districts in Vienna. (<strong> In the nicest possible way</strong>)
+
+![](../plots/income_pie.png)
+
+The income-wave (per district):
+![](../plots/income_bar.png)
+
+### RICH SHIT!
+
+Extensive research has shown the rich are too finicky to pick up the shit of their own dogs.
+**Data shows that the higher the income per district, the lower the dog bag number in the same district)**
+![](../plots/hundebeutel_income.png)
 
 </div>
+
+
 
