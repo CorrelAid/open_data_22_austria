@@ -27,7 +27,7 @@ print(mdf)
 dogs = pd.read_csv("data/hunde/hunde_pro_bezirk_2020.csv")
 ddog = dogs.merge(dog_bag)
 ddog = ddog[["bezirk", "summe_beutel_bezirk", "dog_density"]]
-sns.lmplot(x="summe_beutel_bezirk", y="dog_density",data=ddog,fit_reg=True) 
+sns.lmplot(x="summe_beutel_bezirk", y="dog_density",data=ddog,fit_reg=True)
 # mdf.plot.scatter(x="summe_beutel_bezirk", y="avg_income_fulltime_total", c="DarkBlue")
 plt.savefig("plots/hundebeutel_hunde.png")
 print(ddog)
