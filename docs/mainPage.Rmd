@@ -4,8 +4,6 @@ author: "Correlaid Austria"
 date: "3/5/2022"
 output: 
   html_document:
-    toc: true
-    toc_depth: 5  # upto three depths of headings (specified by #, ## and ###)
     css: style.css
 ---
 
@@ -24,19 +22,30 @@ Source (https://wufflog.de/hundeurin/)
 
 In Vienna, the presence of dogs has a positive effect on the thickness of trees. 
 ![](../plots/dog_tree.png)
+Hence, more dogs -> healthier trees. 
+
+### Where are the thickest trees in Vienna (or Linz)?
+![](../plots/thickest_tree.png)
+
+
 
 
 ### What is there about Vienna and Chihuahua?
 
-The people from Vienna seem to like their Chihuahua. Although many numbers have been crunched, no clear answer on why this is the case has been found.
+The people from Vienna seem to like their Chihuahua. Although many numbers have been crunched, no clear answer on why this is the case has been found. Based on our research, further studies should be started.
 
 ![](../plots/most_popular_race_bezirk.png)
 
+### What is there about Vienna and the Spitzahorn? And what about the Rosskastanie in the second district?
+![](../plots/lieblingsbaum.png)
+
+
 ### Doggy bag density vs. dog density
 
-Many people already tried to investigate this question. Yet few answers have been presented to the scientific literature. Here we show a novel approach, called a scatterplot, shows that the higher the dog-density, the higher the doggy-bag density. 
+Many people already tried to investigate this question. Yet few answers have been presented to the scientific literature.
 
 ![](../plots/doggy_bags_density_vs_dog_density.png)
+
 
 ### Spread of the income in Vienna
 
@@ -47,13 +56,14 @@ The following pie-chart, clearly, shows the span between the low-income and high
 The income-wave (per district):
 ![](../plots/income_bar.png)
 
+
 ### RICH SHIT!
 
 Extensive research has shown the rich are too finicky to pick up the shit of their own dogs.
 **Data shows that the higher the income per district, the lower the dog bag number in the same district)**
+
 ![](../plots/hundebeutel_income.png)
 
 </div>
-
 
 
