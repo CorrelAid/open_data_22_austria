@@ -18,4 +18,4 @@ for col in income.columns:
 income = income.reset_index()
 print(income)
 
-income.to_csv("data/income.csv", index=False)
+income.to_csv("data/income/income.csv", index=False)
